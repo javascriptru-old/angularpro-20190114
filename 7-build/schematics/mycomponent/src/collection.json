@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "mycomponent": {
+      "aliases": "myc",
+      "description": "A blank schematic.",
+      "factory": "./mycomponent/index#mycomponent"
+    }
+  }
+}
